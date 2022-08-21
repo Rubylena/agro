@@ -43,7 +43,7 @@ const NavSlide = (props) => {
           </IconButton>
         </Toolbar>
 
-        <Box className="nav-slide-links hover:text-greeny">
+        <Box className="nav-slide-links">
           {[
             ["Home", "/"],
             ["About Us", "/about"],
