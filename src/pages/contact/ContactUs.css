@@ -1,0 +1,58 @@
+form .login_input_wrapper{
+  display: flex;
+  flex-direction: column;
+  margin: 10px 0;
+}
+form .login_input_wrapper input{
+  padding: 0.5rem;
+  color: black;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+
+form .login_input_wrapper input:focus{
+  outline: none;
+  border: 1px solid greenyellow;
+  /* border: 1px solid rgb(56, 125, 222); */
+}
+
+form .login_input_wrapper .info-error {
+  border: 1px solid #ff0000;
+}
+form .login_input_wrapper .error {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+  color: #ff0000;
+  margin-top: 3px;
+}
+
+form .contactus-send-btn {
+  border: 1.5px solid greenyellow;
+  border-radius: 10px;
+  gap: 8px;
+  width: 141px;
+  height: 56px;
+  color: greenyellow;
+  margin-top: 10px;
+}
+
+.contactus-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contactus-details .contact-details-top {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 44px;
+  color: black;
+}
+.contactus-details .contact-details-text {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 36px;
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: column;
+}

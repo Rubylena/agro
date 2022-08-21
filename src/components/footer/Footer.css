@@ -1,0 +1,54 @@
+.f_row-1 h3 {
+    transition: all 90ms ease-in-out;
+}
+.f_row-1 h3:hover {
+    color: green;
+    transform: scale(1.04);
+    cursor: pointer;
+}
+
+
+.f_row-2 h3 {    
+    transition: all 120ms eas-in-out;
+}
+.f_row-2 h3:hover {
+    transform: scale(1.04);
+    color: green;
+    cursor: pointer;
+}
+
+.f_row-3 .email {
+    border: 0;
+    border-bottom: 1px solid rgb(212, 212, 212);
+    margin-top: 30px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+.f_row-3 .email:focus {
+    outline: 0;
+}
+.email::placeholder{
+    font-size: 0.9rem;
+}
+.f_row-3 .f_button {
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+    transition: all 120ms ease-in-out;
+}
+.f_row-3 .f_button:hover {
+    transform: scale(1.05);
+}
+
+.s_social_container {
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+}
+.s_image {
+    height: 28px;
+    width: 28px;
+    padding-right: 5px;
+}
