@@ -50,7 +50,7 @@ const NavSlide = (props) => {
             ["Contact Us", "/contact"],
             ["Products", "/products"],
           ].map(([title, url], index) => (
-            <Link to={url} key={index}>
+            <Link to={url} key={index} className='hover:text-greeny'>
               {title}
             </Link>
           ))}

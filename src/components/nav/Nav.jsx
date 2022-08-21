@@ -40,7 +40,7 @@ const Nav = () => {
               ["Contact Us", "/contact"],
               ["Products", "/products"],
             ].map(([title, url], index) => (
-              <a href={url} key={index} className='hover:text-greeny'>
+              <a href={url} key={index} className='hover:border-b-2 hover:text-greeny'>
                 {title}
               </a>
             ))}
