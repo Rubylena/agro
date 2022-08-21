@@ -4,7 +4,6 @@ import { Box, IconButton } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 import NavSlide from './NavSlide';
 import logo from '../../assets/icon/chicken.png'
-import './nav.css'
 
 const Nav = () => {
   const [open, setOpen] = useState(false);
@@ -24,7 +23,7 @@ const Nav = () => {
         <div className='w-1/4 md:w-1/12 flex'>
           <a href="/" className='flex items-center'>
             <img src={logo} alt='soloku logo' 
-            className='w-14 md:w-1/2 '></img>
+            className='w-14 md:w-1/2'></img>
             <h1 className='md:text-5xl font-bold'>Soloku</h1>
           </a>
         </div>
@@ -41,37 +40,12 @@ const Nav = () => {
               ["Contact Us", "/contact"],
               ["Products", "/products"],
             ].map(([title, url], index) => (
-              <a href={url} key={index} className='hover:border-b-2 hover:text-greeny'>
+              <a href={url} key={index} className='hover:text-greeny'>
                 {title}
               </a>
             ))}
           </nav>
         </Box>
-
-        {/* <Box
-          sx={{
-            display: { xs: "none", md: "flex" },
-          }}
-        >
-          <div className="flex space-x-4 font-medium text-center p-3" >
-            {[
-              [
-                "Log In",
-                "/login",
-                "text-pblue border font-semibold border-pblue rounded-lg w-20 py-2",
-              ],
-              [
-                "Sign Up",
-                "/signup",
-                "text-pviolet border font-semibold border-pviolet rounded-lg w-32 py-2",
-              ],
-            ].map(([title, url, style], index) => (
-              <a href={url} className={style} key={index} >
-                {title}
-              </a>
-            ))}
-          </div>
-        </Box> */}
 
         <Box
           sx={{

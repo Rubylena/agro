@@ -10,7 +10,7 @@ const Home = () => {
   return (
     <div>
     <header>
-        <section className='hero flex flex-col justify-center items-start font-bold'>
+        <section className='hero flex flex-col items-end md:justify-center md:items-start font-bold'>
             <div className='hero-content'>
             <h2 className='text-xl'>Soloku Farms</h2>
             <p>Where your expectations are met.</p>
@@ -21,11 +21,16 @@ const Home = () => {
     <main className='mx-10 md:mx-32 lg:mx-52'>
         <section className='my-10'>
             <h2 className='text-2xl font-semibold'>Services</h2>
-            <p className='m-5 text-justify'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nostrum, id vel provident reiciendis a tenetur tempore officia itaque libero, hic qui cum suscipit quo inventore expedita quisquam consectetur exercitationem assumenda facere sapiente repudiandae ipsam quidem. Labore iste amet consequatur ad, dolorem quaerat aperiam blanditiis magnam quos quibusdam, porro, necessitatibus a ullam unde laborum vero facere officiis dolores ab facilis autem? Necessitatibus magni error ratione hic culpa ex sint exercitationem doloremque facilis delectus neque ad maiores blanditiis, dignissimos porro excepturi harum quibusdam deserunt pariatur molestias repellendus. Veniam, repudiandae reprehenderit dolorem, vitae officia obcaecati modi cum eos fugiat ipsa voluptatem necessitatibus?</p>
+            <p className='m-5 md:my-10 text-justify'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit nostrum, id vel provident reiciendis a tenetur tempore officia itaque libero, hic qui cum suscipit quo inventore expedita quisquam consectetur exercitationem assumenda facere sapiente repudiandae ipsam quidem. Labore iste amet consequatur ad, dolorem quaerat aperiam blanditiis magnam quos quibusdam, porro, necessitatibus a ullam unde laborum vero facere officiis dolores ab facilis autem? Necessitatibus magni error ratione hic culpa ex sint exercitationem doloremque facilis delectus neque ad maiores blanditiis, dignissimos porro excepturi harum quibusdam deserunt pariatur molestias repellendus. Veniam, repudiandae reprehenderit dolorem, vitae officia obcaecati modi cum eos fugiat ipsa voluptatem necessitatibus?</p>
+            <div className='flex flex-wrap justify-center gap-10 text-xl font-semibold'>
+                <div className=' bg-biege shadow-xl hover:shadow-2xl hover:bg-gray rounded-lg w-56 h-64 flex justify-center items-center'><h3>Egg Production</h3></div>
+                <div className=' bg-biege shadow-xl hover:shadow-2xl rounded-lg hover:bg-gray w-56 h-64 flex justify-center items-center'><h3>Meat Production</h3></div>
+                <div className=' bg-biege shadow-xl hover:shadow-2xl rounded-lg hover:bg-gray w-56 h-64 flex justify-center items-center'><h3>Manure production</h3></div>
+            </div>
         </section>
         <section>
             <h2 className='text-2xl font-semibold'>Gallery</h2>
-            <div className='flex gap-5 flex-wrap md:grid md:grid-rows-2 md:grid-flow-col md:gap-2 mx-5 md:mx-0 lg:mx-20 md:my-10'>
+            <div className='flex gap-5 flex-wrap md:grid md:grid-rows-2 md:grid-flow-col md:gap-2 mx-5 my-5 md:mx-0 lg:mx-20 md:my-10'>
                 <div className='h-full'><img className='w-full h-full' src={chicks} alt='About background'></img></div>
                 <div className='h-full'><img className='w-full h-full' src={native} alt='native chick'></img></div>
                 <div className='h-full md:col-span-2'><img className='w-full h-full' src={native} alt='native chick'></img></div>
