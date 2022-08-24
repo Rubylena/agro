@@ -11,7 +11,7 @@ const Home = () => {
     <div>
     <header>
         <section className='hero flex flex-col items-end md:justify-center md:items-start font-bold'>
-            <div className='hero-content'>
+            <div className='hero-content hidden md:block'>
             <h2 className='text-xl'>Soloku Farms</h2>
             <p>Where your expectations are met.</p>
             <p>Fresh products all day long.</p>
